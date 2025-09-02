@@ -35,6 +35,5 @@ $(TARGET): $(SRC) $(RES)
 
 clean:
 	rm -f $(TARGET)
-	rm -rf $(DIST)
 
-.PHONY: all clean bundle
+.PHONY: all clean
