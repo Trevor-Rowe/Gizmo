@@ -11,7 +11,7 @@
 
 typedef bool (*OpcodeHandler)(CPU*);
 
-// Various Helpers
+// Various Helpers (TESTING)
 
 static uint16_t form_address(CPU *cpu)
 { 
